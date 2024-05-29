@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    margin: 0 auto;
+  }
+  .resume-container {
+    font-family: sans-serif;
+  }
+  .resume-row-intro {
+    position: relative;
+    margin-bottom: 100px;
+    padding: 50px;
+    background: #2f05eb;
+  }
+  .intro-section {
+    color: #fff;
+    display: flex;
+  }
+  .left-intro-content,
+  .right-intro-content {
+    flex: 50%;
+  }
+  .right-intro-content {
+    text-align: right;
+  }
+  .self-mail {
+    text-decoration: none;
+    color: #fff;
+  }
+  .self-mail:focus,
+  .self-mail:hover,
+  .self-mail:active {
+    text-decoration: none;
+    color: #fff;
+  }
+  .image-section {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    transform: translate(-50%, 0px);
+  }
+  .image-section img {
+    border-radius: 50%;
+    box-shadow: 0 0 30px 6px #ccc;
+  }
+  .image-section img:hover {
+    transform: scale(1.025);
+  }
+  .fa-user-circle,
+  .fa-mobile,
+  .fa-envelope,
+  .fa-tag {
+    margin-right: 15px;
+    width: 16px;
+  }
+  .resume-row {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .experience,
+  .education,
+  .career-highlights,
+  .work-done,
+  .skills,
+  .interests {
+    flex: 50%;
+    padding: 0 20px 10px 20px;
+  }
+  .experience,
+  .career-highlights,
+  .skills {
+    text-align: right;
+    border-right: 5px solid #187f62;
+  }
+  .education,
+  .work-done,
+  .interests {
+    text-align: left;
+  }
+  .resume-row .resume-subheading {
+    margin-top: 0;
+    color: #187f62;
+  }
+  .resume-subheading i:hover {
+    transform: scale(1.5);
+  }
+  .content-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+  }
+  .content-list li {
+    padding: 10px 0;
+  }
+  .year,
+  .title {
+    display: block;
+    margin: 0;
+  }
+  .year {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .fa-tasks,
+  .fa-briefcase,
+  .fa-graduation-cap,
+  .fa-award,
+  .fa-cog,
+  .fa-project-diagram {
+    color: #187f62;
+    margin-left: 15px;
+  }
+  .work-link {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid;
+  }
+  .work-link:hover {
+    border-bottom: 2px dashed;
+  }
+  @media only screen and (max-width: 767px) {
+    .resume-row-intro {
+      margin-bottom: 180px;
+      padding: 40px;
+    }
+    .intro-section {
+      font-size: 14px;
+      flex-direction: column;
+    }
+    .left-inro-content,
+    .right-inro-content {
+      flex: 100%;
+    }
+    .left-intro-content p,
+    .right-intro-content p {
+      margin-top: 0;
+    }
+    .right-intro-content {
+      text-align: left;
+    }
+    .image-section {
+      top: 190px;
+    }
+    .resume-row {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    .experience,
+    .education,
+    .career-highlights,
+    .work-done,
+    .skills,
+    .interests {
+      flex: 100%;
+      text-align: center;
+      border-bottom: 5px solid #187f62;
+      margin-top: 26px;
+    }
+    .interests {
+      border-bottom: none;
+    }
+    .experience,
+    .career-highlights,
+    .skills {
+      border-right: none;
+    }
+  }
+  
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-row-intro">
+          <div class="intro-section">
+            <div class="left-intro-content">
+              <p><i class="fa fa-user-circle" aria-hidden="true"></i>ANGELO C. GAUPO</p>
+              <p><i class="fa fa-mobile" aria-hidden="true"></i>09070012776</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="angelogaupocanetegmail.com" class="self-mail">angelogaupocanete@gmail.com</a></p>
+            </div>
+            <div class="right-intro-content">
+              <p><i class="fa fa-tag" aria-hidden="true"></i>Web Developer</p>
+              <p><i class="fa fa-tag" aria-hidden="true"></i>UI Designer</p>
+            </div>
+          </div>
+          <div class="image-section">
+            <img src="angelo.jpg" width="200" alt="My photo">
+          </div>
+        </div>
+        <div class="resume-row">
+          <div class="experience">
+            <h3 class="resume-subheading">OBJECTIVES<i class="fas fa-briefcase" aria-hidden="true"></i></h3>
+            <ul class="content-list">
+              <li>
+                <p class="title">To enhance my programming skills by mastering advanced algorithms and data structures, developing proficiency in multiple programming languages, and contributing to open-source projects, thereby increasing my ability to design efficient, scalable, and maintainable software solutions.</p>
+              </li>
+              </li>
+            </ul>
+          </div>
+          <div class="education">
+            <h3 class="resume-subheading">EDUCATION<i class="fas fa-graduation-cap" aria-hidden="true"></i></h3>
+            <ul class="content-list">
+              <li>
+                <p class="year">San Vicente Elementary School (2010 - 2016)</p>
+                <p class="title">San Vicente Bulan Sorsogon</p>
+              </li>
+              <li>
+                <p class="year">St. Louise de Marillac School of Bulan (2016 - 2022)</p>
+                <p class="title">Gerona Zone-2 Bulan Sorsogon</p>
+              </li>
+              <li>
+                <p class="year">Sorsogon State University-Bulan Campus (2022 - 2025)</p>
+                <p class="title">Zone-8 Bulan Sorsogon</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-row">
+          <div class="skills">
+            <h3 class="resume-subheading">SKILLS<i class="fas fa-cog" aria-hidden="true"></i></h3>
+            <ul class="content-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Photoshop</li>
+            </ul>
+          </div>
+          <div class="work-done">
+            <h3 class="resume-subheading">EXPERIENCE<i class="fas fa-project-diagram" aria-hidden="true"></i></h3>
+            <ul class="content-list">
+              <li><a href="https://guptasourabh02.github.io/css-layouts/" class="work-link" target="_blank">Summer Job</a></li>
+              <li><a href= "https://guptasourabh02.github.io/temperature-converter/"class="work-link" target="_blank">Position; Encoder</a></li>
+              <li><a href="https://guptasourabh02.github.io/count-down-timer/" class="work-link" target="_blank">Compony; SORECO 1, Irosin Sorsogon</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-row">
+          <div class="career-highlights">
+            <h3 class="resume-subheading">PERSONAL PROFILE<i class="fas fa-award" aria-hidden="true"></i></h3>
+            <ul class="content-list">
+              <li>AGE: 20</li>
+              <li>BIRTH DATE: October 24, 2003</li>
+              <li>HEIGHT: 5'7</li>
+              <li>WEIGHT: 65kg</li>
+              <li>STATUS: Single</li>
+              <li>CITIZENCHIP: Filipino</li>
+            </ul>
+          </div>
+          <div class="interests">
+            <h3 class="resume-subheading">INTERESTS<i class="fas fa-tasks" aria-hidden="true"></i></h3>
+            <ul class="content-list">
+              <li>Sports</li>
+              <li>Reading</li>
+              <li>Playing Games</li>
+              <li>Watching Movies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
